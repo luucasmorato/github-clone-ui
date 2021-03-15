@@ -33,7 +33,7 @@ const Profile: React.FC = () => {
       const repos = await reposResponse.json();
 
       const shuffledRepos = repos.sort(() => 0.5 - Math.random());
-      const slicedRepos = shuffledRepos.slice(0, 8); // number repos
+      const slicedRepos = shuffledRepos.slice(0, 6); // number repos
 
       setData({
         user,
