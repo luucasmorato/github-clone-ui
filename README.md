@@ -8,5 +8,5 @@ In the project directory, you can run:
 Runs the app in the development mode.<br />
 
 ## User interface
-![home-page](https://github.com/luucasmorato/github-clone-ui/blob/master/screen/github-clone-page.png)
-![mobile-theme](https://github.com/luucasmorato/github-clone-ui/blob/master/screen/light-dark-theme.png)
+![home-page](https://github.com/luucasmorato/github-clone-ui/blob/master/src/screen/github-clone-page.png)
+![mobile-theme](https://github.com/luucasmorato/github-clone-ui/blob/master/src/screen/light-dark-theme.png)
