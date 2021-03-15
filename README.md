@@ -9,6 +9,4 @@ Runs the app in the development mode.<br />
 
 ## User interface
 ![home-page](https://github.com/luucasmorato/github-clone-ui/blob/main/screen/github-clone-page.png)
-github-clone-ui inital page in web 
 ![mobile-theme](https://github.com/luucasmorato/github-clone-ui/blob/main/screen/light-dark-theme.png)
-light and dark themes apply in mobile
