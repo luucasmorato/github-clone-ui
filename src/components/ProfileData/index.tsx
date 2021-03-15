@@ -31,20 +31,19 @@ const ProfileData: React.FC<Props> = ({
         <Avatar src={avatarUrl} alt={username} />
 
         <div>
-          <h1> {name} </h1>
-          <h2> {username} </h2>
+          <h1> { name } </h1>
+          <h2> { username } </h2>
         </div>
       </Flex>
 
       <Row>
         <li>
           <PeopleIcon />
-          <b> {followers} </b>
+          <b className="space"> { followers } </b>
           <span> followers </span>
-          <span> · </span>
         </li>
         <li>
-          <b> {following} </b>
+          <b className="space"> { following } </b>
           <span> following </span>
         </li>
       </Row>
@@ -54,7 +53,7 @@ const ProfileData: React.FC<Props> = ({
           <li>
             <CompanyIcon />
             <span>
-              {company}
+              { company }
             </span>
           </li>
         )}
@@ -62,7 +61,7 @@ const ProfileData: React.FC<Props> = ({
           <li>
             <LocationIcon />
             <span>
-              {location}
+              { location }
             </span>
           </li>
         )}
@@ -78,7 +77,7 @@ const ProfileData: React.FC<Props> = ({
           <li>
             <BlogIcon />
             <span>
-              {blog}
+              { blog }
             </span>
           </li>
         )}

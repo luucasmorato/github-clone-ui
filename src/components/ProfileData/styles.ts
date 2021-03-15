@@ -54,6 +54,10 @@ export const Row = styled.ul`
   > li {
     display: flex;
     align-items: center;
+
+    .space {
+      padding: 0 3px;
+    }
   }
 
   > span {
